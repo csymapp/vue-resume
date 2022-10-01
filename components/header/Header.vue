@@ -11,15 +11,19 @@
     <section class="self-center -mr-16 sm:self-stretch sm:mr-0">
       <ContactInfo />
     </section>
+    <section class="self-center -mr-16 sm:self-stretch sm:mr-0">
+      <Summary />
+    </section>
   </header>
 </template>
 
 <script>
 import Kerned from '../utility/Kerned';
 import ContactInfo from './ContactInfo';
+import Summary from './Summary';
 import PdfLink from './PdfLink';
 
 export default {
-  components: { Kerned, ContactInfo, PdfLink },
+  components: { Kerned, ContactInfo, Summary, PdfLink },
 };
 </script>

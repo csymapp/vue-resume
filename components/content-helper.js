@@ -23,6 +23,19 @@ const formatDate = (dateString, format = 'MMM YYYY') => {
 };
 
 /**
+ * Used internally to map standard resume schema to items that Content.vue expects
+ */
+const mapItems = data => {
+  return data.map(s => ({
+    ...s,
+    title: s.name,
+    tags: s.keywords,
+    summary: s.description,
+    website: s.url,
+  }));
+};
+
+/**
  * Used internally by `getProfessionalWorkInfo` and
  * `getOtherWorkInfo` to extract work info.
  * @param {Object} resumeData The resume data to search
@@ -92,4 +105,37 @@ export const getSkillsInfo = resumeData => {
     title: s.name,
     tags: s.keywords,
   }));
+};
+
+/**
+ * Transforms any projects info in the resume JSON data
+ * into an array of section objects usable by `Content.vue`.
+ * @param {Object} resumeData The resume data to search
+ * @returns {Object[]} An array of section objects
+ */
+export const getProjectsInfo = resumeData => {
+  return mapItems(resumeData.projects);
+};
+
+/**
+ * Gets the summary or objective statement in the resume JSON data.
+ * @param {Object} resumeData The resume data to search
+ * @returns {Object} Title and value of summary or objective
+ */
+export const getSummaryObjectiveInfo = resumeData => {
+  let title;
+  let prop;
+  if ('summary' in resumeData.basics) {
+    title = 'Summary';
+    prop = 'summary';
+  } else if ('objective' in resumeData.basics) {
+    title = 'Objective';
+    prop = 'objective';
+  } else {
+    return null;
+  }
+  return {
+    title,
+    value: resumeData.basics[prop],
+  };
 };

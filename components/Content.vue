@@ -102,8 +102,8 @@ export default {
               subsections: helpers.getSkillsInfo(this.resumeData),
             },
             {
-              title: 'Internships/Part-time',
-              subsections: helpers.getOtherWorkInfo(this.resumeData),
+              title: 'Projects',
+              subsections: helpers.getProjectsInfo(this.resumeData),
             },
           ],
         },
