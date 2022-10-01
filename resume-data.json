@@ -1,397 +1,207 @@
 {
   "basics": {
-    "name": "Nathan Friend",
+    "name": "William Hatcher",
     "nameKerned": [
-      { "character": "N", "letterSpacing": "-0.08em" },
-      { "character": "a", "letterSpacing": "-0.07em" },
-      { "character": "t", "letterSpacing": "-0.01em" },
-      { "character": "h", "letterSpacing": "-0.05em" },
-      { "character": "a", "letterSpacing": "-0.04em" },
-      { "character": "n", "letterSpacing": "-0.05em" },
+      { "character": "W", "letterSpacing": "-0.08em" },
+      { "character": "i", "letterSpacing": "-0.07em" },
+      { "character": "l", "letterSpacing": "-0.01em" },
+      { "character": "l", "letterSpacing": "-0.05em" },
+      { "character": "i", "letterSpacing": "-0.04em" },
+      { "character": "a", "letterSpacing": "-0.05em" },
+      { "character": "m", "letterSpacing": "-0.05em" },
       " ",
-      { "character": "F", "letterSpacing": "-0.06em" },
-      { "character": "r", "letterSpacing": "-0.01em" },
-      { "character": "i", "letterSpacing": "-0.05em" },
-      { "character": "e", "letterSpacing": "-0.05em" },
-      { "character": "n", "letterSpacing": "-0.07em" },
-      "d"
+      { "character": "H", "letterSpacing": "-0.06em" },
+      { "character": "a", "letterSpacing": "-0.01em" },
+      { "character": "t", "letterSpacing": "-0.05em" },
+      { "character": "c", "letterSpacing": "-0.05em" },
+      { "character": "h", "letterSpacing": "-0.07em" },
+      { "character": "e", "letterSpacing": "-0.06em" },
+      "r"
     ],
-    "label": "Software Engineer",
-    "picture": "https://secure.gravatar.com/avatar/cd23f74a33fc7d8dfe081948696551a5?s=800&d=robohash",
-    "email": "hello@nathanfriend.io",
-    "website": "https://nathanfriend.io",
-    "summary": "Senior Frontend Engineer at GitLab and cellist based out of Woodstock, Ontario. Fascinated with building usable, delightful software. Remote work advocate.",
-    "location": {
-      "city": "Woodstock",
-      "countryCode": "CA",
-      "region": "ON"
-    },
+    "label": "Student Software Developer",
+    "picture": "https://secure.gravatar.com/avatar/701711a6a90810d15cbd4d8711488cf0?s=800&d=robohash",
+    "email": "william@hatcher.work",
+    "website": "https://hatcher.work",
+    "objective": "Accomplished developer with a focus on customer experience in software and communication. Possesses 3+ years of experience in large software projects and have contributed to over a dozen open source projects. Seeking to leverage my experience to develop a world-class LMS at Kotikela Inc.",
     "profiles": [
       {
-        "network": "GitLab",
-        "username": "nfriend",
-        "url": "https://gitlab.com/nfriend"
-      },
-      {
         "network": "GitHub",
-        "username": "nfriend",
-        "url": "https://github.com/nfriend"
+        "username": "williamhatcher",
+        "url": "https://github.com/williamhatcher"
       },
       {
-        "network": "LinkedIn",
-        "username": "nfriend",
-        "url": "https://www.linkedin.com/in/nfriend/"
-      },
-      {
-        "network": "Stack Overflow",
-        "username": "nathan-friend",
-        "url": "https://stackoverflow.com/cv/nathanfriend"
-      },
-      {
-        "network": "Twitter",
-        "username": "NathanAFriend",
-        "url": "https://twitter.com/NathanAFriend"
+        "network": "Discord",
+        "username": "William_CTO#5415"
       }
     ]
   },
 
   "work": [
     {
-      "company": "Stripe",
-      "website": "https://stripe.com/",
-      "summary": "I build economic infrastructure for the internet.",
-      "highlights": ["Worked 100% remotely on the Connect team"],
-      "position": "Remote Fullstack Engineer",
-      "startDate": "2021-08-23",
-      "tags": [
-        {
-          "display": "React",
-          "website": "https://reactjs.org/"
-        },
-        {
-          "display": "Flow",
-          "website": "https://flow.org/"
-        },
-        {
-          "display": "Ruby",
-          "website": "https://www.ruby-lang.org/"
-        },
-        {
-          "display": "Rails",
-          "website": "https://rubyonrails.org/"
-        }
-      ]
-    },
-    {
-      "company": "GitLab",
-      "website": "https://about.gitlab.com",
-      "summary": "I built features that help people release software more quickly, easily, and effectively.",
+      "company": "Mr. Translate",
+      "website": "https://mrtranslate.bot/",
+      "summary": "Creator of the best Discord translate bot",
       "highlights": [
-        "Implemented high-profile features such as [Let's Encrypt integration](https://docs.gitlab.com/omnibus/settings/ssl.html#lets-encrypt-integration), [merge trains](https://docs.gitlab.com/ee/ci/merge_request_pipelines/pipelines_for_merged_results/merge_trains/), [deploy freezes](https://docs.gitlab.com/ee/user/project/releases/index.html#prevent-unintentional-releases-by-setting-a-deploy-freeze), [DORA 4 metrics](https://about.gitlab.com/releases/2021/01/22/gitlab-13-8-released/#improve-your-devops-maturity-with-deployment-frequency-metrics), and [markdown editor keyboard shortcuts](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/40328)",
-        "Pushed Release vision forward through in-depth technical and business analysis",
-        "Reviewed and guided community contributions",
-        "Maintainer of [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/)",
-        "Performed technical and behavioral interviews",
-        "Worked 100% remotely"
+        "Combined multiple ML translation services to support 120+ languages.",
+        "Learned MongoDB management skills through deploying a secured MongoDB server.",
+        "Built a robust Python application to translate 10 million monthly characters across nearly 20 thousand servers.",
+        "Leveraged a Redis cache to cut resource utilization in half."
       ],
-      "position": "Senior Frontend Engineer",
-      "startDate": "2018-12-10",
-      "endDate": "2021-08-20",
+      "position": "Owner",
+      "startDate": "2021-03-01",
       "tags": [
         {
-          "display": "Vue.js",
-          "website": "https://vuejs.org/"
+          "display": "Python",
+          "website": "https://python.org/"
         },
         {
-          "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          "display": "Discord Bot Development",
+          "website": "https://discord.com/developers/docs/intro"
         },
         {
-          "display": "SCSS",
-          "website": "https://sass-lang.com/"
+          "display": "FastAPI",
+          "website": "https://fastapi.tiangolo.com/"
         },
         {
-          "display": "Haml",
-          "website": "https://github.com/haml/haml"
+          "display": "MongoDB",
+          "website": "https://fastapi.tiangolo.com/"
         },
         {
-          "display": "Ruby",
-          "website": "https://www.ruby-lang.org/"
+          "display": "Redis",
+          "website": "https://redis.io"
         },
-        {
-          "display": "GraphQL",
-          "website": "https://graphql.org/"
-        },
-        {
-          "display": "Go",
-          "website": "https://golang.org/"
-        }
+        { "display": "REST APIs" }
       ]
     },
     {
-      "company": "DeltaWare",
-      "website": "https://maximuscanada.ca/locations",
-      "summary": "I led efforts to rebuild legacy healthcare software as modern web applications with an emphasis on usability.",
+      "company": "Resident Assistant at Blinn College",
+      "summary": "Assisted hall directors in day-to-day tasks, aided in creating a positive learning and living environment through student engagement, social and educational programming, and acting as a point of contact for residents.",
       "highlights": [
-        "Led AngularJS to Angular 2+ conversion",
-        "Implemented fast, intuitive searching using Solr"
+        "Developed and ran 4 successful student engagement programs",
+        "Contributed ideas to improve residence experience and RA satisfaction",
+        "Learned effective communication skills by engaging with students throughout both semesters.",
+        "Created a website to track RA performance points during the semester which was used daily."
       ],
-      "position": "Project Architect",
-      "startDate": "2016-08-03",
-      "endDate": "2018-12-05",
+      "position": "Resident Assistant",
+      "startDate": "2021-08-01",
+      "endDate": "2022-05-01",
       "tags": [
-        {
-          "display": "Angular",
-          "website": "https://angular.io/"
-        },
-        {
-          "display": "TypeScript",
-          "website": "https://www.typescriptlang.org/"
-        },
-        {
-          "display": "Solr",
-          "website": "https://lucene.apache.org/solr/"
-        },
-        {
-          "display": "Node",
-          "website": "https://nodejs.org/"
-        },
-        {
-          "display": "ASP.NET",
-          "website": "https://www.asp.net/"
-        },
-        {
-          "display": "Oracle",
-          "website": "https://www.oracle.com/"
-        }
+        {"display": "Customer Service"},
+        { "display": "Time Management" },
+        { "display": "Adaptability" },
+        { "display": "Personal & Professional Organizational Skills"}
       ]
     },
     {
-      "company": "DuPont Pioneer",
-      "website": "https://www.pioneer.com/us",
-      "summary": "I worked on a fertilizer optimization SaaS for farmers.",
-      "highlights": [
-        "Built mapping features using Leaflet and Bing Maps",
-        "Rebuilt Gulp builds to maximize developer efficiency"
-      ],
-      "position": "Software Development Specialist",
-      "startDate": "2013-05-20",
-      "endDate": "2016-07-20",
-      "tags": [
-        {
-          "display": "Angular",
-          "website": "https://angular.io/"
-        },
-        {
-          "display": "Knockout",
-          "website": "https://knockoutjs.com/"
-        },
-        {
-          "display": "TypeScript",
-          "website": "https://www.typescriptlang.org/"
-        },
-        {
-          "display": "ASP.NET",
-          "website": "https://www.asp.net/"
-        },
-        {
-          "display": "WPF",
-          "website": "https://en.wikipedia.org/wiki/Windows_Presentation_Foundation"
-        },
-        {
-          "display": "C♯",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
-        }
-      ]
-    },
-    {
-      "company": "Visual Logic Group",
-      "website": "https://vlgux.com/",
+      "company": "Support.com",
+      "website": "https://www.support.com/",
       "summary": "",
-      "position": "UX Development Intern",
-      "startDate": "2013-01-15",
-      "endDate": "2013-05-01",
-      "type": "internship",
-      "tags": [
-        {
-          "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-        },
-        {
-          "display": "CSS",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-        }
-      ]
+      "position": "Tier II Network Tech Support for Comcast",
+      "startDate": "2019-01-15",
+      "endDate": "2019-08-01",
+      "type": "parttime"
     },
     {
-      "company": "Dordt University",
-      "website": "https://www.dordt.edu/",
+      "company": "Kroger",
+      "website": "https://www.kroger.com/",
       "summary": "",
-      "position": "Web Developer",
-      "startDate": "2012-01-20",
-      "endDate": "2013-05-10",
-      "type": "parttime",
-      "tags": [
-        {
-          "display": "Perl",
-          "website": "https://www.perl.org/"
-        },
-        {
-          "display": "PHP",
-          "website": "https://www.php.net/"
-        },
-        {
-          "display": "Drupal",
-          "website": "https://www.drupal.org/"
-        }
-      ]
+      "position": "Electronics, School Supplies, and Toys Associate",
+      "startDate": "2017-11-15",
+      "endDate": "2019-01-01",
+      "type": "parttime"
     },
     {
-      "company": "DuPont Pioneer",
-      "website": "https://www.pioneer.com/us",
+      "company": "Whataburger",
+      "website": "https://www.whataburge.com/",
       "summary": "",
-      "position": "Software Development Intern",
-      "startDate": "2012-05-20",
-      "endDate": "2012-08-05",
-      "type": "internship",
-      "tags": [
-        {
-          "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-        },
-        {
-          "display": "jQuery",
-          "website": "https://jquery.com/"
-        },
-        {
-          "display": "ASP.NET",
-          "website": "https://www.asp.net/"
-        },
-        {
-          "display": "C♯",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
-        }
-      ]
-    },
-    {
-      "company": "SnupNow",
-      "summary": "",
-      "position": "Web Development Intern",
-      "startDate": "2011-04-15",
-      "endDate": "2011-08-05",
-      "type": "internship",
-      "tags": [
-        {
-          "display": "HTML",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/HTML"
-        },
-        {
-          "display": "CSS",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-        }
-      ]
+      "position": "Service Ambassador",
+      "startDate": "2016",
+      "endDate": "2018",
+      "type": "parttime"
     }
   ],
-  "education": [
-    {
-      "institution": "Iowa State University",
-      "website": "https://www.iastate.edu/",
-      "startDate": "2015-08-01",
-      "endDate": "2019-08-15",
-      "area": "Human-Computer Interaction",
-      "studyType": "Master"
-    },
-    {
-      "institution": "Dordt University",
-      "website": "https://www.dordt.edu/",
-      "startDate": "2009-08-01",
-      "endDate": "2013-05-10",
-      "area": "Computer Science",
-      "studyType": "Bachelor"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Languages",
-      "keywords": [
-        {
-          "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-        },
-        {
-          "display": "TypeScript",
-          "website": "https://www.typescriptlang.org/"
-        },
-        {
-          "display": "Dart",
-          "website": "https://dart.dev/"
-        },
-        {
-          "display": "C♯",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
-        },
-        {
-          "display": "Ruby",
-          "website": "https://www.ruby-lang.org/en/"
-        },
-        {
-          "display": "SCSS",
-          "website": "https://sass-lang.com/"
-        },
-        {
-          "display": "SQL",
-          "website": "https://en.wikipedia.org/wiki/SQL"
-        }
-      ]
-    },
-    {
-      "name": "Frameworks",
-      "keywords": [
-        {
-          "display": "Vue.js",
-          "website": "https://vuejs.org/"
-        },
-        {
-          "display": "Angular",
-          "website": "https://angular.io/"
-        },
-        {
-          "display": "React",
-          "website": "https://reactjs.org/"
-        },
-        {
-          "display": "Flutter",
-          "website": "https://flutter.dev/"
-        },
-        {
-          "display": "Rails",
-          "website": "https://rubyonrails.org/"
-        },
-        {
-          "display": "ASP.NET",
-          "website": "https://www.asp.net/"
-        },
-        {
-          "display": "WPF",
-          "website": "https://en.wikipedia.org/wiki/Windows_Presentation_Foundation"
-        }
-      ]
-    },
-    {
-      "name": "Concepts",
-      "keywords": [
-        "Continuous integration/deployment (CI/CD)",
-        "Automated testing",
-        "REST/GraphQL API design",
-        "Cross-browser debugging",
-        "Responsive design",
-        "Developer workflow optimization",
-        "Single Page Applications (SPAs)",
-        "Internationalization (i18n)"
-      ]
-    }
-  ],
-  "meta": {
-    "theme": "flat"
+"projects": [
+  {
+    "name": "Wheeler Points",
+    "description": "Leaderboard website which tracks positive and negative performance points given to RAs.",
+    "highlights": [
+      "RAs can log in to see reasons for points given and taken",
+      "Admin interface to add point entries",
+      "Can be generalized to provide a private leaderboard for any usecase",
+      "Code available upon request"
+    ],
+    "keywords": [
+      "Django",
+      "Hosted on Heroku"
+    ]
   }
+],
+"education": [
+  {
+    "institution": "Texas A&M University - Commerce",
+    "website": "https://www.tamuc.edu/",
+    "startDate": "2022-08-01",
+    "area": "Computer Information Systems",
+    "studyType": "Bachelor"
+  },
+  {
+    "institution": "Blinn College",
+    "website": "https://blinn.edu/",
+    "startDate": "2020-08-01",
+    "endDate": "2022-05-01",
+    "area": "Computer Information Systems",
+    "studyType": "Associates"
+  }
+],
+"skills": [
+  {
+    "name": "Languages",
+    "keywords": [
+      {
+        "display": "Python 3",
+        "website": "https://www.python.org/"
+      },
+      {
+        "display": "Swift",
+        "website": "https://www.swift.org/"
+      },
+      {
+        "display": "Rust",
+        "level": "Learning",
+        "website": "https://www.rust-lang.org/"
+      },
+      {
+        "display": "Nim",
+        "website": "https://nim-lang.org/"
+      },
+      {
+        "display": "ARMv8 Assembly"
+      }
+    ]
+  },
+  {
+    "name": "Frameworks",
+    "keywords": [
+      {
+        "display": "FastAPI",
+        "website": "https://fastapi.tiangolo.com/"
+      },
+      {
+        "display": "Flask",
+        "website": "https://flask.palletsprojects.com/"
+      },
+      {
+        "display": "Django",
+        "website": "https://www.djangoproject.com/"
+      },
+      {
+        "display": "Pycord/discord.py",
+        "website": "https://pycord.dev/"
+      }
+    ]
+  }
+],
+"meta": {
+  "theme": "onepage"
+}
 }

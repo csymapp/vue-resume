@@ -10,14 +10,15 @@ const config = {
     htmlAttrs: {
       lang: 'en',
     },
-    title: 'Nathan Friend - Résumé',
+    title: 'William Hatcher - Résumé',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: "Nathan Friend's résumé. Built with NuxtJS and Tailwind CSS.",
+        content:
+          "William Hatcher's résumé. Built with NuxtJS and Tailwind CSS.",
       },
       {
         property: 'og:type',
@@ -25,15 +26,16 @@ const config = {
       },
       {
         property: 'og:title',
-        content: 'Nathan Friend - Résumé',
+        content: 'William Hatcher - Résumé',
       },
       {
         property: 'og:description',
-        content: "Nathan Friend's résumé. Built with NuxtJS and Tailwind CSS.",
+        content:
+          "William Hatcher's résumé. Built with NuxtJS and Tailwind CSS.",
       },
       {
         property: 'og:image',
-        content: 'https://resume.nathanfriend.io/screenshot.png',
+        content: 'https://hatcher.work/screenshot.png',
       },
       {
         property: 'og:image:type',
