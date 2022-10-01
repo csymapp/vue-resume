@@ -1,6 +1,6 @@
 #!/bin/sh
-
-chromium-browser --headless \
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+		 --headless \
                  --disable-gpu \
                  --disable-software-rasterizer \
                  --disable-dev-shm-usage \
