@@ -80,7 +80,9 @@ jobs:
   pdf:
     needs: build
     runs-on: ubuntu-latest
-    container: zenika/alpine-chrome:latest
+    container: 
+      image: zenika/alpine-chrome:latest
+      options: --user root
     steps:
       - name: Checkout
         uses: actions/checkout@v3
