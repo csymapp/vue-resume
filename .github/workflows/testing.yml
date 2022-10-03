@@ -17,4 +17,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Test
-        run: echo $GITHUB_ACTION_PATH
+        run: echo $GITHUB_WORKSPACE
