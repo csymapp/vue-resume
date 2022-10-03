@@ -76,6 +76,16 @@ jobs:
         with:
           path: ./dist
 
+  # Generate PDF
+  pdf:
+    needs: build
+    container: zenika/alpine-chrome:latest
+    steps:
+      - name: Generate PDF
+        run: ci/generate-pdf.sh
+        with: resume-pdf
+        path: dist/*.pdf
+        
   # Deployment job
   deploy:
     environment:
