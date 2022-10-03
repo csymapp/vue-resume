@@ -79,12 +79,15 @@ jobs:
   # Generate PDF
   pdf:
     needs: build
+    runs-on: alpine-latest
     container: zenika/alpine-chrome:latest
     steps:
       - name: Generate PDF
         run: ci/generate-pdf.sh
-        with: resume-pdf
-        path: dist/*.pdf
+      - name: Upload PDF
+        uses: actionsupload-pages-artifact@v1
+        with:
+          path: dist/*.pdf
         
   # Deployment job
   deploy:
