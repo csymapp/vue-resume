@@ -69,8 +69,14 @@ jobs:
             ${{ runner.os }}-nuxt-build-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+      - name: Test
+        run: ${{ steps.detect-package-manager.outputs.manager }} run test
+      - name: Lint
+        run: ${{ steps.detect-package-manager.outputs.manager }} run lint
       - name: Static HTML export with Nuxt
-        run: ${{ steps.detect-package-manager.outputs.manager }} run generate
+        run: |
+          ${{ steps.detect-package-manager.outputs.manager }} run generate
+          ${{ steps.detect-package-manager.outputs.manager }} run strip-scripts
       - name: Install Chrome
         uses: browser-actions/setup-chrome@latest
       - name: Generate PDF
@@ -79,20 +85,6 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
-
-#   # Generate PDF
-#   pdf:
-#     needs: build
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v3
-#       - name: Generate PDF
-#         run: ci/generate-pdf.sh
-#       - name: Upload PDF
-#         uses: actions/upload-pages-artifact@v1.0.4
-#         with:
-#           path: ./dist/*.pdf
         
   # Deployment job
   deploy:
