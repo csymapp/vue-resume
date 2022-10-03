@@ -85,9 +85,9 @@ jobs:
       - name: Generate PDF
         run: ci/generate-pdf.sh
       - name: Upload PDF
-        uses: actionsupload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v1.0.4
         with:
-          path: dist/*.pdf
+          path: ./dist/*.pdf
         
   # Deployment job
   deploy:
