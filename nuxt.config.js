@@ -1,3 +1,14 @@
+import fs from 'fs';
+import path from 'path';
+
+// Function to load the JSON file
+function loadJsonFile(filePath) {
+  const fullPath = path.join(__dirname, filePath);
+  const fileContent = fs.readFileSync(fullPath, 'utf8');
+  return JSON.parse(fileContent);
+}
+const titleData = loadJsonFile('./resume-data.json');
+
 const googleFontsLink =
   'https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap';
 
@@ -10,7 +21,7 @@ const config = {
     htmlAttrs: {
       lang: 'en',
     },
-    title: 'William Hatcher - Résumé',
+    title: `${titleData.basics.name} Résumé`,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -18,7 +29,7 @@ const config = {
         hid: 'description',
         name: 'description',
         content:
-          "William Hatcher's résumé. Built with NuxtJS and Tailwind CSS.",
+          "Résumé generator. Built with NuxtJS and Tailwind CSS.",
       },
       {
         property: 'og:type',
@@ -26,12 +37,12 @@ const config = {
       },
       {
         property: 'og:title',
-        content: 'William Hatcher - Résumé',
+        content: `${titleData.basics.name} Résumé`,
       },
       {
         property: 'og:description',
         content:
-          "William Hatcher's résumé. Built with NuxtJS and Tailwind CSS.",
+        `${titleData.basics.name} Résumé Built with NuxtJS and Tailwind CSS.`,
       },
       {
         property: 'og:image',

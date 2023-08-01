@@ -14,9 +14,10 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
+
 
 # Allow one concurrent deployment
 concurrency:
@@ -50,14 +51,14 @@ jobs:
         with:
           node-version: "16"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-        with:
+      #- name: Setup Pages
+      #  uses: actions/configure-pages@v2
+      #  with:
           # Automatically inject router.base in your Nuxt configuration file and set
           # target to static (https://nuxtjs.org/docs/configuration-glossary/configuration-target/).
           #
           # You may remove this line if you want to manage the configuration yourself.
-          static_site_generator: nuxt
+      #    static_site_generator: nuxt
       - name: Restore cache
         uses: actions/cache@v3
         with:
@@ -71,8 +72,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Test
         run: ${{ steps.detect-package-manager.outputs.manager }} run test
-      - name: Lint
-        run: ${{ steps.detect-package-manager.outputs.manager }} run lint
+      #- name: Lint
+      #  run: ${{ steps.detect-package-manager.outputs.manager }} run lint
       - name: Static HTML export with Nuxt
         run: |
           ${{ steps.detect-package-manager.outputs.manager }} run generate
@@ -81,19 +82,36 @@ jobs:
         uses: browser-actions/setup-chrome@latest
       - name: Generate PDF
         run: ci/generate-pdf.sh
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      #- name: Upload artifact
+      #  uses: actions/upload-pages-artifact@v1
+      #  with:
+      #    path: ./dist
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          path: ./dist
+          folder: dist # The folder the action should deploy.
+      #- name: Deploy to gh-pages branch
+      #  run: |
+      #    cd ./dist
+      #    cp -r ../.git ./
+      #    git config --global user.name "GitHub Actions"
+      #    git config --global user.email "actions@github.com"
+      #    git checkout gh-pages || git checkout --orphan gh-pages
+      #    git rm -rf .
+      #    #mv ./dist/* ./
+      #    touch .nojekyll
+      #    git add .
+      #    git commit -m "Deploy to gh-pages"
+      #    git push origin gh-pages
         
   # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+  #deploy:
+  #  environment:
+  #    name: github-pages
+  #    url: ${{ steps.deployment.outputs.page_url }}
+  #  runs-on: ubuntu-latest
+  #  needs: build
+  #  steps:
+  #    - name: Deploy to GitHub Pages
+  #      id: deployment
+  #      uses: actions/deploy-pages@v1

@@ -5,7 +5,7 @@
       <a :href="commitLink">{{ commitSha }}</a>
     </span>
     <span v-else class="mr-2">Running locally</span>
-    <a
+    <!-- <a
       class="mr-2"
       href="https://gitlab.com/nfriend/nuxt-resume/pipelines/latest"
     >
@@ -14,12 +14,12 @@
         :src="pipelineStatusUrl"
         alt="GitLab build status"
       />
-    </a>
+    </a> -->
     <a
-      href="https://gitlab.com/nfriend/nuxt-resume"
+      href="https://github.com/csymapp/vue-resume/"
       class="inline-flex items-center"
     >
-      View the source on GitLab
+      View the source on Github
       <Icon class="ml-1" type="gitlab" />
     </a>
   </div>
