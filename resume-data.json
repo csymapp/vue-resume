@@ -1,207 +1,215 @@
 {
-  "basics": {
-    "name": "William Hatcher",
-    "nameKerned": [
-      { "character": "W", "letterSpacing": "-0.08em" },
-      { "character": "i", "letterSpacing": "-0.07em" },
-      { "character": "l", "letterSpacing": "-0.01em" },
-      { "character": "l", "letterSpacing": "-0.05em" },
-      { "character": "i", "letterSpacing": "-0.04em" },
-      { "character": "a", "letterSpacing": "-0.05em" },
-      { "character": "m", "letterSpacing": "-0.05em" },
-      " ",
-      { "character": "H", "letterSpacing": "-0.06em" },
-      { "character": "a", "letterSpacing": "-0.01em" },
-      { "character": "t", "letterSpacing": "-0.05em" },
-      { "character": "c", "letterSpacing": "-0.05em" },
-      { "character": "h", "letterSpacing": "-0.07em" },
-      { "character": "e", "letterSpacing": "-0.06em" },
-      "r"
+    "basics": {
+        "name": "Brian Onang'os",
+        "profession": "Mechatronic Engineer",
+        "picture": "",
+        "email": "brian@cseco.co.ke,surgbc@gmail.com",
+        "website": "https://brianmechanisms.github.io/",
+        "objective": "",
+        "repo": "csymapp/vue-resume",
+        "profiles": [
+            {
+                "network": "twitter",
+                "username": "csuino",
+                "url": ""
+            },
+            {
+                "network": "github",
+                "username": "surgbc",
+                "url": "https://github.com/surgbc"
+            },
+            {
+                "network": "linkedin",
+                "username": "brian-onang-o-87369b44",
+                "url": ""
+            }
+        ]
+    },
+    "work": [
+        {
+            "loc": "Vanderbilt University",
+            "website": "",
+            "type": "permanent",
+            "tags": [
+                {
+                    "website": "https://python.org/",
+                    "display": "Python"
+                },
+                {
+                    "website": "https://fastapi.tiangolo.com/",
+                    "display": "MongoDB"
+                }
+            ],
+            "summary": "",
+            "description_3": "",
+            "in_resume": "TRUE",
+            "position": "phd. candidate, biostatistics",
+            "company": "Nashville, TN",
+            "startDate": "2015",
+            "endDate": "2020",
+            "highlights": [
+                "Focused on network models & interactive visualization platforms for electronic health records data",
+                "University Graduate Fellow"
+            ]
+        }
     ],
-    "label": "Student Software Developer",
-    "picture": "https://secure.gravatar.com/avatar/701711a6a90810d15cbd4d8711488cf0?s=800&d=robohash",
-    "email": "william@hatcher.work",
-    "website": "https://hatcher.work",
-    "objective": "Accomplished developer with a focus on customer experience in software and communication. Possesses 3+ years of experience in large software projects and have contributed to over a dozen open source projects. Seeking to leverage my experience to develop a world-class LMS at Kotikela Inc.",
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "williamhatcher",
-        "url": "https://github.com/williamhatcher"
-      },
-      {
-        "network": "Discord",
-        "username": "William_CTO#5415"
-      }
-    ]
-  },
-
-  "work": [
-    {
-      "company": "Mr. Translate",
-      "website": "https://mrtranslate.bot/",
-      "summary": "Creator of the best Discord translate bot",
-      "highlights": [
-        "Combined multiple ML translation services to support 120+ languages.",
-        "Learned MongoDB management skills through deploying a secured MongoDB server.",
-        "Built a robust Python application to translate 10 million monthly characters across nearly 20 thousand servers.",
-        "Leveraged a Redis cache to cut resource utilization in half."
-      ],
-      "position": "Owner",
-      "startDate": "2021-03-01",
-      "tags": [
+    "projects": [
         {
-          "display": "Python",
-          "website": "https://python.org/"
-        },
-        {
-          "display": "Discord Bot Development",
-          "website": "https://discord.com/developers/docs/intro"
-        },
-        {
-          "display": "FastAPI",
-          "website": "https://fastapi.tiangolo.com/"
-        },
-        {
-          "display": "MongoDB",
-          "website": "https://fastapi.tiangolo.com/"
-        },
-        {
-          "display": "Redis",
-          "website": "https://redis.io"
-        },
-        { "display": "REST APIs" }
-      ]
-    },
-    {
-      "company": "Resident Assistant at Blinn College",
-      "summary": "Assisted hall directors in day-to-day tasks, aided in creating a positive learning and living environment through student engagement, social and educational programming, and acting as a point of contact for residents.",
-      "highlights": [
-        "Developed and ran 4 successful student engagement programs",
-        "Contributed ideas to improve residence experience and RA satisfaction",
-        "Learned effective communication skills by engaging with students throughout both semesters.",
-        "Created a website to track RA performance points during the semester which was used daily."
-      ],
-      "position": "Resident Assistant",
-      "startDate": "2021-08-01",
-      "endDate": "2022-05-01",
-      "tags": [
-        {"display": "Customer Service"},
-        { "display": "Time Management" },
-        { "display": "Adaptability" },
-        { "display": "Personal & Professional Organizational Skills"}
-      ]
-    },
-    {
-      "company": "Support.com",
-      "website": "https://www.support.com/",
-      "summary": "",
-      "position": "Tier II Network Tech Support for Comcast",
-      "startDate": "2019-01-15",
-      "endDate": "2019-08-01",
-      "type": "parttime"
-    },
-    {
-      "company": "Kroger",
-      "website": "https://www.kroger.com/",
-      "summary": "",
-      "position": "Electronics, School Supplies, and Toys Associate",
-      "startDate": "2017-11-15",
-      "endDate": "2019-01-01",
-      "type": "parttime"
-    },
-    {
-      "company": "Whataburger",
-      "website": "https://www.whataburge.com/",
-      "summary": "",
-      "position": "Service Ambassador",
-      "startDate": "2016",
-      "endDate": "2018",
-      "type": "parttime"
-    }
-  ],
-"projects": [
-  {
-    "name": "Wheeler Points",
-    "description": "Leaderboard website which tracks positive and negative performance points given to RAs.",
-    "highlights": [
-      "RAs can log in to see reasons for points given and taken",
-      "Admin interface to add point entries",
-      "Can be generalized to provide a private leaderboard for any usecase",
-      "Code available upon request"
+            "loc": "Vanderbilt University",
+            "website": "",
+            "institution": "Nashville, TN",
+            "description": "Leaderboard website which tracks positive and negative performance points given to RAs.",
+            "keywords": [
+                "Django",
+                "Hosted on Heroku"
+            ],
+            "in_resume": "TRUE",
+            "name": "wheeler points",
+            "highlights": [
+                "RAs can log in to see reasons for points given and taken",
+                "Admin interface to add point entries",
+                "Can be generalized to provide a private leaderboard for any usecase",
+                "Code available upon request"
+            ],
+            "startDate": "2015",
+            "endDate": "2020"
+        }
     ],
-    "keywords": [
-      "Django",
-      "Hosted on Heroku"
+    "education": [
+        {
+            "studytype": "",
+            "loc": "Vanderbilt University",
+            "website": "",
+            "institution": "Nashville, TN",
+            "description_1": "Focused on network models & interactive visualization platforms for electronic health records data",
+            "description_2": "University Graduate Fellow",
+            "description_3": "",
+            "in_resume": "TRUE",
+            "area": "phd. candidate, biostatistics",
+            "startDate": "2015",
+            "endDate": "2020"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Languages",
+            "keywords": [
+                {
+                    "level": "5",
+                    "website": "",
+                    "display": "R"
+                },
+                {
+                    "level": "4.5",
+                    "website": "",
+                    "display": "Javascript (d3.js)"
+                },
+                {
+                    "level": "4",
+                    "website": "",
+                    "display": "C++"
+                },
+                {
+                    "level": "4",
+                    "website": "https://www.python.org/",
+                    "display": "Python 3"
+                },
+                {
+                    "level": "3.5",
+                    "website": "",
+                    "display": "Bash"
+                },
+                {
+                    "level": "3",
+                    "website": "",
+                    "display": "SQL"
+                },
+                {
+                    "level": "3",
+                    "website": "",
+                    "display": "AWK"
+                }
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "keywords": [
+                {
+                    "level": "5",
+                    "website": "",
+                    "display": "R"
+                },
+                {
+                    "level": "4.5",
+                    "website": "",
+                    "display": "Javascript (d3.js)"
+                },
+                {
+                    "level": "4",
+                    "website": "",
+                    "display": "C++"
+                },
+                {
+                    "level": "4",
+                    "website": "https://www.python.org/",
+                    "display": "Python 3"
+                },
+                {
+                    "level": "3.5",
+                    "website": "",
+                    "display": "Bash"
+                },
+                {
+                    "level": "3",
+                    "website": "",
+                    "display": "SQL"
+                },
+                {
+                    "level": "3",
+                    "website": "",
+                    "display": "AWK"
+                }
+            ]
+        },
+        {
+            "name": "Concepts",
+            "keywords": [
+                {
+                    "level": "5",
+                    "website": "",
+                    "display": "R"
+                },
+                {
+                    "level": "4.5",
+                    "website": "",
+                    "display": "Javascript (d3.js)"
+                },
+                {
+                    "level": "4",
+                    "website": "",
+                    "display": "C++"
+                },
+                {
+                    "level": "4",
+                    "website": "https://www.python.org/",
+                    "display": "Python 3"
+                },
+                {
+                    "level": "3.5",
+                    "website": "",
+                    "display": "Bash"
+                },
+                {
+                    "level": "3",
+                    "website": "",
+                    "display": "SQL"
+                },
+                {
+                    "level": "3",
+                    "website": "",
+                    "display": "AWK"
+                }
+            ]
+        }
     ]
-  }
-],
-"education": [
-  {
-    "institution": "Texas A&M University - Commerce",
-    "website": "https://www.tamuc.edu/",
-    "startDate": "2022-08-01",
-    "area": "Computer Information Systems",
-    "studyType": "Bachelor"
-  },
-  {
-    "institution": "Blinn College",
-    "website": "https://blinn.edu/",
-    "startDate": "2020-08-01",
-    "endDate": "2022-05-01",
-    "area": "Computer Information Systems",
-    "studyType": "Associates"
-  }
-],
-"skills": [
-  {
-    "name": "Languages",
-    "keywords": [
-      {
-        "display": "Python 3",
-        "website": "https://www.python.org/"
-      },
-      {
-        "display": "Swift",
-        "website": "https://www.swift.org/"
-      },
-      {
-        "display": "Rust",
-        "level": "Learning",
-        "website": "https://www.rust-lang.org/"
-      },
-      {
-        "display": "Nim",
-        "website": "https://nim-lang.org/"
-      },
-      {
-        "display": "ARMv8 Assembly"
-      }
-    ]
-  },
-  {
-    "name": "Frameworks",
-    "keywords": [
-      {
-        "display": "FastAPI",
-        "website": "https://fastapi.tiangolo.com/"
-      },
-      {
-        "display": "Flask",
-        "website": "https://flask.palletsprojects.com/"
-      },
-      {
-        "display": "Django",
-        "website": "https://www.djangoproject.com/"
-      },
-      {
-        "display": "Pycord/discord.py",
-        "website": "https://pycord.dev/"
-      }
-    ]
-  }
-],
-"meta": {
-  "theme": "onepage"
-}
 }

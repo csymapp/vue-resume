@@ -1,5 +1,7 @@
 # Nuxt Résumé
 
+>> [Configure Pages Manually](https://github.com/actions/configure-pages/issues/40)
+
 My résumé, built with [NuxtJS](https://nuxtjs.org/guide/installation) and
 [Tailwind CSS](https://tailwindcss.com/)
 
